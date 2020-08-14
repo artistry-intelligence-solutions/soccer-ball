@@ -1,0 +1,25 @@
+{
+  "name": "three-js-balls",
+  "version": "0.0.1",
+  "description": "threejs test",
+  "keywords": [],
+  "license": "ISC",
+  "author": "artistry-intelligence-solutions",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "main": "main.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "@tweenjs/tween.js": "^18.6.0",
+    "three": "^0.119.1"
+  }
+}
